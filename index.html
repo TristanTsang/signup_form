@@ -26,31 +26,45 @@
           You <em>know</em> you want to
         </p>
         <fieldset class="signup">
-          <legend>Let's Do This!</legend>
-          <div>
+          <div class="signup_form">
+            <legend>Let's Do This!</legend>
             <div class="row">
-              <label for="first_name">FIRST NAME</label>
-              <input type="text" id="first_name" class="text_box" />
-              <label for="last_name">LAST NAME</label>
-              <input type="text" id="last_name" class="text_box" />
+              <div class="form_pair">
+                <label for="first_name">FIRST NAME</label>
+                <input type="text" id="first_name" class="text_box" />
+              </div>
+              <div class="form_pair">
+                <label for="last_name">LAST NAME</label>
+                <input type="text" id="last_name" class="text_box" />
+              </div>
             </div>
 
             <div class="row">
-              <label for="email">EMAIL</label>
-              <input type="email" id="email" class="text_box" />
-              <label for="phone_number">PHONE NUMBER</label>
-              <input type="text" id="first_name" class="text_box" />
+              <div class="form_pair">
+                <label for="email">EMAIL</label>
+                <input type="email" id="email" class="text_box" />
+              </div>
+              <div class="form_pair">
+                <label for="phone_number">PHONE NUMBER</label>
+                <input type="text" id="first_name" class="text_box" />
+              </div>
             </div>
 
             <div class="row">
-              <label for="password">PASSWORD</label>
-              <input type="password" id="password" class="text_box" />
-              <label for="confirm_password">CONFIRM PASSWORD</label>
-              <input type="password" id="confirm_password" class="text_box" />
+              <div class="form_pair">
+                <label for="password">PASSWORD</label>
+                <input type="password" id="password" class="text_box" />
+              </div>
+
+              <div class="form_pair">
+                <label for="confirm_password">CONFIRM PASSWORD</label>
+                <input type="password" id="confirm_password" class="text_box" />
+              </div>
             </div>
-            <input type="submit" class="submit_button" />
           </div>
+          <input type="submit" class="submit_button" value="Create Account" />
         </fieldset>
+        <div class="subtitle">Already have an account? <a>Log In</a></div>
       </div>
     </div>
   </body>

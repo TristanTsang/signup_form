@@ -14,7 +14,6 @@ body {
 .cover-panel {
   flex: 1;
   background-image: url("cover-image.jpg");
-  background-color: blue;
   height: 100%;
   align-items: center;
   display: flex;
@@ -25,6 +24,10 @@ body {
 .form-panel {
   flex: 2;
   height: 100%;
+  background-color: rgb(245, 245, 245);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .title-banner {
@@ -62,7 +65,7 @@ body {
 
 .caption {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 22px;
   margin-left: 2em;
   font-family: "arial";
 }
@@ -70,14 +73,73 @@ body {
 .row {
   display: flex;
   flex-direction: row;
+  gap: 5vw;
 }
 
 .signup {
   display: flex;
   flex-direction: column;
+  gap: 2em;
+}
+
+.form_pair {
+  display: flex;
+  flex-direction: column;
+}
+.signup_form {
+  box-shadow: 0px 5px 10px darkgray;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5vh;
+  padding-right: 2em;
+  padding-left: 2em;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  background-color: white;
+}
+
+fieldset {
+  border: 0px;
+  padding: 0px;
+}
+
+label {
+  font-family: Arial;
+  color: darkgray;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 10px;
+}
+
+legend {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+input {
+  width: 15vw;
+  height: 1.5em;
 }
 
 .submit_button {
-  display: flex;
-  flex-direction: row;
+  margin-left: 2em;
+  background-color: darkolivegreen;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  border: 0px;
+  border-radius: 5px;
+  height: 3em;
+  width: 15vw;
+}
+
+.subtitle {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-left: 2em;
+  margin-top: 2em;
+}
+a {
+  color: darkolivegreen;
 }
